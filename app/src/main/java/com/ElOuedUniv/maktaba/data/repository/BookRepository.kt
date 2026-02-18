@@ -22,6 +22,40 @@ class BookRepository {
      *     nbPages = 464
      * )
      */
+    private val booksLis= listOf(
+
+        Book(
+            isbn = "978-0-13-235088-4",
+            title = "Clean Code",
+            nbPages = 464
+        ),
+
+        Book(
+            isbn = "978-0-201-61622-4",
+            title = "The Pragmatic Programmer",
+            nbPages = 352
+        ),
+
+        Book(
+            isbn = "978-1-491-94728-6",
+            title = "Kotlin in Action",
+            nbPages = 360
+        ),
+
+        Book(
+            isbn = "978-0-13-468599-1",
+            title = "Effective Java",
+            nbPages = 416
+        ),
+
+        Book(
+            isbn = "978-1-118-95164-8",
+            title = "Android Programming: The Big Nerd Ranch Guide",
+            nbPages = 624
+        )
+    )
+
+
     private val booksList = listOf(
 
         // ----- Previous 5 books -----
@@ -97,4 +131,4 @@ class BookRepository {
         return booksList.find { it.isbn == isbn }
     }
 }
-}
+
