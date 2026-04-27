@@ -2,7 +2,7 @@
 package com.ElOuedUniv.maktaba.data.repository
 
 import com.ElOuedUniv.maktaba.data.local.dao.BookDao
-import com.ElOuedUniv.maktaba.data.local.entity.ReadingStatus
+import com.ElOuedUniv.maktaba.data.local.di.ReadingStatus
 import com.ElOuedUniv.maktaba.data.model.Book
 import com.ElOuedUniv.maktaba.data.model.toBook
 import com.ElOuedUniv.maktaba.data.model.toEntity
